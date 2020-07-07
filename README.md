@@ -18,3 +18,12 @@ Is equal this for-of loop
 for (const num of numbers) {
 }
 ~~~
+
+## Tuesday
+### Mapping and Filter in arrays
+1. **Mapping** is when we create a new array that has the same number of elements in the original array, in which, each element is a modified version of the original array.
+2. **Filter** is when we create a new array that has only has elements that qualify our condition from a collection of the orriginal array
+Syntax used:
+~~~
+newArray.push(elementThatQualifiedOurCondition)
+~~~
