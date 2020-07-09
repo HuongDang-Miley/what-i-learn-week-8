@@ -27,6 +27,14 @@ Syntax used:
 ~~~
 newArray.push(elementThatQualifiedOurCondition)
 ~~~
+
+## Wednesday
+### random number Math.random()
+This syntax generate a random decimal number from 0 - 1. Therefore, if we want to get a random interger number from 1 - 6, we multiply with 6 and round it
+~~~
+let randomFrom1To6= Math.floor(Math.random() * 6)  //-> return a random number among 0, 1, 2, 3, 4, 5, 6
+~~~
+
 ## Thursday
 ### Get user input in Node by using **process.argv**
 This command will take user input and return an array, in which, each element is a string
