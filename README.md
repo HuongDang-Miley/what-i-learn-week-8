@@ -27,3 +27,9 @@ Syntax used:
 ~~~
 newArray.push(elementThatQualifiedOurCondition)
 ~~~
+## Thursday
+### Get user input in Node by using **process.argv**
+~~
+let userInput = process.argv.slice(2)
+~~
+This command will take user input and return an array, in which, each element is a string
